@@ -51,7 +51,7 @@ class _CalculatorState extends State<Calculator> {
   }
 
   // Calculating the expression when
-  // = is pressed
+  // 'equals' button is pressed
   void calculate() {
     String finalQuestion = userQuestion;
     finalQuestion = finalQuestion.replaceAll("x", "*");
